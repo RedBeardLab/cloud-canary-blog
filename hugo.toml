@@ -32,6 +32,8 @@ enableRobotsTXT = true
   title = "CloudCanary blog"
   madeWith = "Made with ❤️ using Hugo"
 
+  blogPath = "blog.cloud-canary.com"
+
   # Dates are displayed following the format below. For more information about
   # formatting, see https://gohugo.io/functions/format/
   dateFormat = "2006-01-02"
