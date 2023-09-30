@@ -1,0 +1,49 @@
+baseURL = 'https://blog.cloud-canary.com/'
+languageCode = 'en-us'
+title = 'CloudCanary'
+theme = "hugo-bearcub"
+
+copyright = "RedBeardLab"
+defaultContentLanguage = "en"
+
+# Generate a nice robots.txt for SEO
+enableRobotsTXT = true
+
+# Setup syntax highlighting without inline styles. For more information about
+# why you'd want to avoid inline styles, see
+# https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/style-src#unsafe_inline_styles
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    # This allows Bear Cub to use a variation of Dracula that is more accessible
+    # to people with poor eyesight. For more information about color contrast
+    # and accessibility, see https://web.dev/color-and-contrast-accessibility/
+    noClasses = false
+
+
+
+[params]
+  # The description of your website
+  description = "Sharing cloud-canary knowledge"
+
+  # This title is used as the site_name on the Hugo's internal opengraph
+  # structured data template
+  title = "CloudCanary blog"
+  madeWith = "Made with ❤️ using Hugo"
+
+  # Dates are displayed following the format below. For more information about
+  # formatting, see https://gohugo.io/functions/format/
+  dateFormat = "2006-01-02"
+
+  # (EXPERIMENTAL) This theme is capable of dynamically generating social cards
+  # for posts that don't have `images` defined in their front matter; By setting
+  # `generateSocialCard` to false, you can prevent this behavior. For more
+  # information see layouts/partials/seo_tags.html
+  generateSocialCard = true
+
+  # Social media. Delete any item you aren't using to make sure it won't show up
+  # in your website's metadata.
+  [social]
+    email = "simone@redbeardlab.com" # Added to the navbar so readers can reply to posts
+
