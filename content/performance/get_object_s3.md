@@ -1,5 +1,5 @@
 +++
-title = 'Unveiling the Latency: How Long Does AWS S3’s GetObject Operation Take?'
+title = 'How long does it take to get an object from AWS S3'
 date = 2023-09-30T18:50:05+02:00
 draft = false
 +++
