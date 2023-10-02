@@ -1,5 +1,5 @@
 +++
-title = 'How Long Does It Take to Read a Row from DynamoDB?'
+title = 'How long does it take to read a row from DynamoDB?'
 date = 2023-09-30T18:50:05+02:00
 draft = false
 +++
