@@ -45,3 +45,10 @@ The data is aggregated over 24 hours of today, 30th September 2023.
 From the percentiles, we can see that half of the requests will take 120ms or less, while the other half will take 120ms or more. We can also observe that 1 in 100 requests will take more than 370ms. The longest request today took a whopping 540ms.
 
 Whether this is acceptable or not depends on your use case. Perhaps it’s not fast enough for a cache layer, but it might be sufficient for non-critical data. As a rule of thumb, anything below 200 ms is typically perceived as instantaneous by the human brain.
+
+### Performance analysis
+
+You can check out all of our performances analysis on this link.
+
+[Performances Analysis](/performance)
+

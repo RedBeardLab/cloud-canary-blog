@@ -38,4 +38,8 @@ The percentile data reveals that half of the requests complete in 120.8 millisec
 
 In our sample 1% of the requests took more than 340ms and the slowest request took a bit longer than 1 second.
 
+### Performance analysis
 
+You can check out all of our performances analysis on this link.
+
+[Performances Analysis](/performance)
